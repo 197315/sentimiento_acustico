@@ -1,7 +1,68 @@
 /* comentario */
 
-
-
-p {
-    color: black;
+#titulo_inicial {
+    background-color: rgb(87, 38, 36);
 }
+
+h1 {
+    color: rgb(210, 202, 144);
+    font-size: 60px;
+    text-align:center;
+    font-style: italic;
+}
+
+h2 {
+    color: rgb(210, 202, 144);
+    font-size: 25px;
+    text-align:center;
+    font-style: italic;
+}
+
+#frase_inicial {
+    color: rgb(87, 38, 36);
+    font-style: italic;
+    background-color: rgb(210, 202, 144);
+    text-align:center;
+    font-size: 20px;
+    line-height: 60px;
+
+}
+
+
+nav {
+    /*outline: 1px solid yellow;*/
+    text-align: center;
+}
+
+ul {
+    /*outline: 1px solid blue;*/
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(87, 38, 36);
+    line-height: 40px;
+
+}
+
+li {
+    /*outline: 1px solid red;*/
+    width: 100px;
+    text-align: center;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    font-style: bold;
+}
+
+a {
+    /*outline: 1px solid green;*/
+    text-decoration: none;
+    display: block;
+    color: rgb(210, 202, 144) ;
+}
+
+a:hover {
+    background: #f9a91a;
+    color: #000;
+}
+
