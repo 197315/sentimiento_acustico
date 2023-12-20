@@ -1,4 +1,4 @@
-/* comentario */
+/* Index */
 
 #titulo_inicial {
 
@@ -141,4 +141,21 @@ footer {
     margin: 0;
     border: 0;
     padding: 0;
+}
+
+/* Novedades */
+
+
+.novedades {
+    display: flex;
+    max-width: 40%;
+    height: auto;
+    border: solid black;
+}
+
+.novedades img{
+    display: flex;
+    max-width: 40%;
+    height: auto;
+    border: solid black;
 }
