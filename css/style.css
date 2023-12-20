@@ -57,6 +57,7 @@ header h3 {
 #Menu {
     nav {
         text-align: center;
+        font-style: bold;
     }
 
     ul {
@@ -65,6 +66,7 @@ header h3 {
         margin: 0;
         background-color: rgb(87, 38, 36);
         line-height: 40px;
+        font-style: bold;
 
     }
 
@@ -81,11 +83,13 @@ header h3 {
         text-decoration: none;
         display: block;
         color: rgb(210, 202, 144);
+        font-style: bold;
     }
 
     a:hover {
         background: #f9a91a;
         color: #000;
+        font-style: bold;
     }
 }
 
@@ -117,7 +121,7 @@ h2 {
 h3 {
     color: rgb(210, 202, 144);
     background-color: rgb(87, 38, 36);
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     font-style: italic;
     margin: 0;
