@@ -1,7 +1,6 @@
 /* Index */
 
 #titulo_inicial {
-
     background-color: rgb(87, 38, 36);
     margin: 0;
     border: 0;
@@ -46,7 +45,6 @@ header h3 {
     background-image: rgb(87, 38, 36);
 }
 
-
 #frase_inicial {
     color: rgb(87, 38, 36);
     font-style: italic;
@@ -59,6 +57,7 @@ header h3 {
 }
 
 #Menu {
+
     nav {
         text-align: center;
         font-style: bold;
@@ -99,7 +98,6 @@ header h3 {
     }
 }
 
-
 body {
     margin: 0;
 }
@@ -115,14 +113,13 @@ h1 {
 }
 
 h2 {
-    color: rgb(87, 38, 36);
+    color: rgb(210, 202, 144);
+    background-color: rgb(87, 38, 36);
     font-size: 25px;
-    text-align: left;
     font-style: italic;
-    position: left;
     margin: 0;
     border: 0;
-    padding: 0;
+    padding-bottom: 30px;
 }
 
 h3 {
@@ -136,8 +133,6 @@ h3 {
     border: 0;
 }
 
-
-
 footer {
     background-color: rgb(87, 38, 36);
     color: rgb(210, 202, 144);
@@ -147,24 +142,21 @@ footer {
     line-height: 20px;
     margin: 0;
     border: 0;
-    padding: 0;
+    padding: 10px;
 }
 
 /* Novedades */
-
-
-.novedades {
-    display: flex;
-    max-width: 40%;
-    height: auto;
-    border: solid black;
-}
-
+.novedades,
 .novedades img {
     display: flex;
     max-width: 40%;
     height: auto;
-    border: solid black;
+    border: solid #000
+}
+
+h2 {
+    text-align: center;
+    height: auto;
 }
 
 .video-container {
