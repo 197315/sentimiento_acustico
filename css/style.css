@@ -100,6 +100,7 @@ header h3 {
 
 body {
     margin: 0;
+    background-color: rgb(210, 202, 144);
 }
 
 h1 {
@@ -117,10 +118,12 @@ h2 {
     background-color: rgb(87, 38, 36);
     font-size: 25px;
     font-style: italic;
+    text-align: center;
     margin: 0;
     border: 0;
     padding-bottom: 30px;
 }
+
 
 h3 {
     color: rgb(210, 202, 144);
@@ -154,11 +157,7 @@ footer {
     border: solid #000
 }
 
-h2 {
-    text-align: center;
-    height: auto;
-}
-
+/* Video */
 .video-container {
     text-align: center;
     position: static;
@@ -166,11 +165,22 @@ h2 {
     margin: 25px auto;
 }
 
+/* Tab */
 table,
+ul,
 th,
 td {
     border: 1px solid;
     text-align: center;
     position: static;
     margin-left: 300px;
+    list-style-type: none;
+}
+
+/* Contacto */
+.formulario {
+    text-align: center;
+    position: static;
+    padding-left: 15px;
+    margin-left: 25px;
 }
