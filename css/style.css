@@ -1,12 +1,5 @@
 /* Index */
 
-#titulo_inicial {
-    background-color: rgb(87, 38, 36);
-    margin: 0;
-    border: 0;
-    padding: 0;
-}
-
 header {
     background-color: rgb(87, 38, 36);
     margin: 0;
@@ -17,32 +10,12 @@ header {
 }
 
 header h1 {
-    background-color: rgb(87, 38, 36);
     margin-left: 250px;
     display: flex;
 }
 
 header h3 {
-    background-color: rgb(87, 38, 36);
     display: flex;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    margin-top: 40px;
-    padding-top: 40px;
-    background-color: rgb(87, 38, 36);
-    background-image: rgb(87, 38, 36);
-}
-
-.logo img {
-    height: 50px;
-    margin-right: 10px;
-    margin-top: 40px;
-    padding-top: 40px;
-    background-color: rgb(87, 38, 36);
-    background-image: rgb(87, 38, 36);
 }
 
 #frase_inicial {
@@ -56,45 +29,36 @@ header h3 {
     padding: 0;
 }
 
-#Menu {
+#menu {
 
-    nav {
-        text-align: center;
-        font-style: bold;
-    }
+    background-color: rgb(87, 38, 36);
+    font-weight: bold;
+    text-align: center;
+
 
     ul {
         list-style: none;
         padding: 0;
         margin: 0;
-        background-color: rgb(87, 38, 36);
         line-height: 40px;
-        font-style: bold;
-
     }
 
     li {
         width: 100px;
-        text-align: center;
         width: 100px;
         display: inline-block;
-        text-align: center;
-        font-style: bold;
-        background-color: rgb(87, 38, 36);
     }
 
     a {
         text-decoration: none;
         display: block;
         color: rgb(210, 202, 144);
-        font-style: bold;
-        background-color: rgb(87, 38, 36);
     }
 
     a:hover {
         background: #f9a91a;
         color: #000;
-        font-style: bold;
+        font-weight: bold;
     }
 }
 
@@ -132,7 +96,7 @@ h3 {
     text-align: center;
     font-style: italic;
     margin: 0;
-    padding: 0;
+    padding: 0px;
     border: 0;
 }
 
@@ -146,6 +110,19 @@ footer {
     margin: 0;
     border: 0;
     padding: 10px;
+
+    a {margin: 30px;}
+
+    h3 {
+        color: rgb(210, 202, 144);
+        background-color: rgb(87, 38, 36);
+        font-size: 20px;
+        text-align: center;
+        font-style: italic;
+        margin: 0;
+        padding: 20px;
+        border: 0;
+    }
 }
 
 /* Novedades */
@@ -154,7 +131,7 @@ footer {
     display: flex;
     max-width: 40%;
     height: auto;
-    border: solid #000
+    padding-top: 30px;
 }
 
 /* Video */
@@ -181,6 +158,8 @@ td {
 .formulario {
     text-align: center;
     position: static;
+    padding-top: 30px;
     padding-left: 15px;
+    padding-bottom: 30px;
     margin-left: 25px;
 }
