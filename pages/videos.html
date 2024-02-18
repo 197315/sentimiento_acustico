@@ -4,89 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
+
     <title>Document</title>
 </head>
 
 <body>
-
-    <header>
-        <a href="../index.html">
-            <img src="../images/logo.png" width="150" alt="logo">
-        </a>
-        <h1>Sentimiento Acustico</h1>
-    </header>
-
-    <h2>Marcelo G. Gonzalez</h2>
-
-    <section id=frase_inicial>
-        <b>Videos</b>
-    </section>
-
-    <section id="menu">
+    <div id="grid_videos">
+        <header id="titulo_videos"><b>Sentimiento Acustico</b></header>
+        <section id="subtitulo_videos"><b>Marcelo G. Gonzalez</b></section>
+        <section id="frase_videos"><b>Videos</b>
+        </section>
         <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./contenido.html">Contenido</a></li>
-                <li><a href="./videos.html">Videos</a></li>
-                <li><a href="./tabs.html">Tabs</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
+            <a href="../index.html">
+                <img src="../images/logo.png" width="150" alt="logo">
+            </a>
         </nav>
-
-    </section>
-
-    <section class="grid-video">
-        <div class="grid-item">
-            <iframe id="video1" width="600" height="315"
-                src="https://www.youtube.com/embed/xjoxDOPvnX4?si=XB_8GVAf80-6cWuk" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
+        <iframe id="video_1" width="100%" height="500"
+            src="https://www.youtube.com/embed/xjoxDOPvnX4?si=XB_8GVAf80-6cWuk" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+        <iframe id="video_2" width="100%" height="500"
+            src="https://www.youtube.com/embed/WZ0x-mnaE4w?si=4HXFFs7WY62PgfTG" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+        <iframe id="video_3" width="100%" height="500"
+            src="https://www.youtube.com/embed/x9yC19i5JrY?si=YBg_zRp-qa735DoF" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+        <iframe id="video_4" width="100%" height="500"
+            src="https://www.youtube.com/embed/ODb_l0s-Pbk?si=ujb1QR5dOGuxn9EF" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+        <section id="paginas_videos">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./contenido.html">Contenido</a></li>
+                    <li><a href="./videos.html">Videos</a></li>
+                    <li><a href="./tabs.html">Tabs</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </section>
+        <footer id="foot_videos">
+            <div>
+                <h3>@Sentimiento Acustico Arg.</h3>
+                <a href="https://www.youtube.com/channel/UCXSYrY7EahzbqNEJzBlBVHA" target="_blank">
+                    <img src="../images/youtube.png" width="40" alt="Youtube">
+                </a> <!-- Blank, cuando cliqkee se abre en otra pestaña  -->
+                <a href="https://www.instagram.com/sentimiento_acustico/?hl=es-la" target="_blank">
+                    <img src="../images/instagram.png" width="30" alt="Instagram">
+                </a>
+                <a href="https://soundcloud.com/sentimieno-acustico" target="_blank">
+                    <img src="../images/soundcloud.png" width="30" alt="SoundCloud">
+                </a>
+                <a href="https://www.soundslice.com/users/MarceG95/" target="_blank">
+                    <img src="../images/soundslice.png" width="30" alt="SoundSlice">
+                </a>
             </div>
-
-        <div class="grid-item"><iframe id="video2" width="600" height="315"
-                src="https://www.youtube.com/embed/WZ0x-mnaE4w?si=4HXFFs7WY62PgfTG" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-            </div>
-
-        <div class="grid-item"><iframe id="video3" width="600" height="315"
-                src="https://www.youtube.com/embed/x9yC19i5JrY?si=YBg_zRp-qa735DoF" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-            </div>
-
-        <div class="grid-item"><iframe id="video4" width="600" height="315"
-                src="https://www.youtube.com/embed/ODb_l0s-Pbk?si=ujb1QR5dOGuxn9EF" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-            </div>
-    </section>
-
-
-    <footer>
-        <div>
-            <h3>@Sentimiento Acustico Arg.</h3>
-            <a href="https://www.youtube.com/channel/UCXSYrY7EahzbqNEJzBlBVHA" target="_blank">
-                <img src="../images/youtube.png" width="40" alt="Youtube">
-            </a> <!-- Blank, cuando cliqkee se abre en otra pestaña  -->
-            <a href="https://www.instagram.com/sentimiento_acustico/?hl=es-la" target="_blank">
-                <img src="../images/instagram.png" width="30" alt="Instagram">
-            </a>
-            <a href="https://soundcloud.com/sentimieno-acustico" target="_blank">
-                <img src="../images/soundcloud.png" width="30" alt="SoundCloud">
-            </a>
-            <a href="https://www.soundslice.com/users/MarceG95/" target="_blank">
-                <img src="../images/soundslice.png" width="30" alt="SoundSlice">
-            </a>
-        </div>
-    </footer>
-
+        </footer>
+    </div>
 </body>
 
 </html>
