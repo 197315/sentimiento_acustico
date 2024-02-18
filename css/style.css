@@ -122,7 +122,6 @@ body {
 
 #container-contenido {
     display: grid;
-    border: solid;
     width: 100%;
     background-color: rgb(210, 202, 144);
     grid-template-rows: repeat(2,50%);
@@ -135,7 +134,7 @@ body {
 #container-contenido>#contenido1 {
     grid-area: contenido1;
     text-align: center;
-    border: solid 1px black;
+    border: solid 2px rgb(210, 202, 144);
     background: linear-gradient(to right, rgb(87, 38, 36), rgb(190, 31, 43));
     color: rgb(210, 202, 144);
 }
@@ -143,7 +142,7 @@ body {
 #container-contenido>#contenido2 {
     grid-area: contenido2;
     text-align: center;
-    border: solid 1px black;
+    border: solid 2px rgb(210, 202, 144);
     background: linear-gradient(to right, rgb(87, 38, 36), rgb(190, 31, 43));
     color: rgb(210, 202, 144);
 }
@@ -151,7 +150,7 @@ body {
 #container-contenido>#contenido3 {
     grid-area: contenido3;
     text-align: center;
-    border: solid 1px black;
+    border: solid 2px rgb(210, 202, 144);
     background: linear-gradient(to right, rgb(87, 38, 36), rgb(190, 31, 43));
     color: rgb(210, 202, 144);
 }
@@ -159,7 +158,7 @@ body {
 #container-contenido>#contenido4 {
     grid-area: contenido4;
     text-align: center;
-    border: solid 1px black;
+    border: solid 2px rgb(210, 202, 144);
     background: linear-gradient(to right, rgb(87, 38, 36), rgb(190, 31, 43));
     color: rgb(210, 202, 144);
 }
