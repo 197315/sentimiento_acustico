@@ -125,41 +125,43 @@ body {
     border: solid;
     width: 100%;
     background-color: rgb(210, 202, 144);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-rows: repeat(2,50%);
     grid-template-columns: 15% 35% 15% 35%;
     grid-template-areas:
-        'fig contenido1 fig contenido2'
-        'fig contenido3 fig contenido4';
-}
-
-#container-contenido>#fig {
-    grid-area: fig;
-    border: solid;
-    text-align: center;
+        'contenido1 contenido1 contenido2 contenido2'
+        'contenido3 contenido3 contenido4 contenido4';
 }
 
 #container-contenido>#contenido1 {
     grid-area: contenido1;
     text-align: center;
     border: solid 1px black;
+    background: linear-gradient(to right, rgb(87, 38, 36), rgb(190, 31, 43));
+    color: rgb(210, 202, 144);
 }
 
 #container-contenido>#contenido2 {
     grid-area: contenido2;
     text-align: center;
     border: solid 1px black;
+    background: linear-gradient(to right, rgb(87, 38, 36), rgb(190, 31, 43));
+    color: rgb(210, 202, 144);
 }
 
 #container-contenido>#contenido3 {
     grid-area: contenido3;
     text-align: center;
     border: solid 1px black;
+    background: linear-gradient(to right, rgb(87, 38, 36), rgb(190, 31, 43));
+    color: rgb(210, 202, 144);
 }
 
 #container-contenido>#contenido4 {
     grid-area: contenido4;
     text-align: center;
     border: solid 1px black;
+    background: linear-gradient(to right, rgb(87, 38, 36), rgb(190, 31, 43));
+    color: rgb(210, 202, 144);
 }
 
 
@@ -301,7 +303,7 @@ body {
     color: rgb(210, 202, 144);
     text-align: center;
     font-style: italic;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 20px;
     margin: 0;
     border: 0;
