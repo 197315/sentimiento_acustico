@@ -29,14 +29,15 @@ body {
 #grid_header>#titulo_header {
     grid-area: titulo_header;
     color: rgb(210, 202, 144);
-    background-color: rgb(87, 38, 36);
+    /* background-color: rgb(87, 38, 36); */
     font-size: 60px;
     font-style: italic;
     text-align: center;
-    align-items: center;
-    margin: 0;
-    border: 0;
-    padding-bottom: 30px;
+    /* align-items: center; */
+    /* margin: 0;
+    border: 0; */
+    /* padding-bottom: 30px; */
+    line-height: 100px;
 }
 
 #grid_header>#subtitulo_header {
@@ -58,7 +59,7 @@ body {
     background-color: rgb(210, 202, 144);
     font-style: italic;
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
     padding-top: 4px;
     border: 0;
     margin: 0;
@@ -96,6 +97,38 @@ body {
     }
 }
 
+@media only screen and (max-width: 550px) {
+    #grid_header>#titulo_header {
+        font-size: 30px;
+    }
+
+    #grid_header>#subtitulo_header {
+        font-size: 20px;
+    }
+
+    #grid_header>#frase_header {
+        font-size: 15px;
+        /* padding: 10px; */
+    }
+
+    #grid_header>#menu_header {
+        li {
+            font-size: 13px;
+            width: 60px;
+        }
+    }
+    a {
+        width: 60px;
+    }
+/* 
+    #grid_header>nav>img {
+        object-fit: contain;
+        width: 100%;
+    } */
+}
+
+
+
 
 /* ------------------------------------------------------------------------ */
 /* container-inicio */
@@ -124,7 +157,7 @@ body {
     display: grid;
     width: 100%;
     background-color: rgb(210, 202, 144);
-    grid-template-rows: repeat(2,50%);
+    grid-template-rows: repeat(2, 50%);
     grid-template-columns: 15% 35% 15% 35%;
     grid-template-areas:
         'contenido1 contenido1 contenido2 contenido2'
@@ -169,11 +202,11 @@ body {
         grid-template-rows: repeat(4, 1fr);
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
-        'contenido1 contenido1'
-        'contenido2 contenido2'
-        'contenido3 contenido3'
-        'contenido4 contenido4';
- 
+            'contenido1 contenido1'
+            'contenido2 contenido2'
+            'contenido3 contenido3'
+            'contenido4 contenido4';
+
         justify-content: center;
         align-items: center;
         /* padding-top: 20px; */
@@ -229,10 +262,10 @@ body {
         grid-template-rows: repeat(4, 1fr);
         grid-template-columns: 1fr;
         grid-template-areas:
-        'video_1'
-        'video_2'
-        'video_3'
-        'video_4';
+            'video_1'
+            'video_2'
+            'video_3'
+            'video_4';
         justify-content: center;
         align-items: center;
         /* padding-top: 20px; */
