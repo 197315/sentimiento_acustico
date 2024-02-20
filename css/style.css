@@ -410,3 +410,51 @@ body {
     margin-bottom: 40px;
     text-align: center;
 }
+
+
+@media only screen and (max-width: 550px) {
+    #grid_footer>#titulo_footer {
+        font-size: 15px;
+    }
+    img {
+        object-fit: contain;
+        margin: auto;
+        display: block;
+        width: 50%;
+    }
+
+    /* #grid_footer>#red_social_1 {
+        grid-area: red_social_1;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    #grid_footer>#red_social_2 {
+        grid-area: red_social_2;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    #grid_footer>#red_social_3 {
+        grid-area: red_social_3;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        text-align: center;
+    } */
+/* 
+    #grid_footer>#red_social_4 {
+
+        
+    } */
+
+}
+
+/* img {
+    object-fit: contain;
+    width: 120%;
+    margin: auto;
+    padding-top: 35px;
+    display: block;
+} */
