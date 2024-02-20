@@ -71,7 +71,6 @@ body {
     font-weight: bold;
     text-align: center;
 
-
     ul {
         list-style: none;
         padding: 0;
@@ -132,8 +131,6 @@ body {
         }
     }
 }
-
-
 
 /* ------------------------------------------------------------------------ */
 /* container-inicio */
@@ -211,7 +208,6 @@ body {
             'contenido2 contenido2'
             'contenido3 contenido3'
             'contenido4 contenido4';
-
         justify-content: center;
         align-items: center;
     }
@@ -256,7 +252,6 @@ body {
     border: 5px solid rgb(210, 202, 144);
 }
 
-
 @media only screen and (max-width: 550px) {
     #container-videos {
         display: grid;
@@ -293,7 +288,6 @@ body {
     border: 1px solid;
     text-align: center;
 
-
     table {
         width: 100%;
         border-collapse: collapse;
@@ -329,7 +323,6 @@ body {
             font-size: 12px;
         }
     }
-
 }
 
 /* ------------------------------------------------------------------------ */
@@ -353,6 +346,14 @@ body {
     padding-left: 15px;
     padding-bottom: 30px;
     margin-left: 25px;
+
+    input {
+        width: 25%;
+    }
+
+    textarea {
+        width: 50%;
+    }
 }
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -416,45 +417,11 @@ body {
     #grid_footer>#titulo_footer {
         font-size: 15px;
     }
+
     img {
         object-fit: contain;
         margin: auto;
         display: block;
         width: 50%;
     }
-
-    /* #grid_footer>#red_social_1 {
-        grid-area: red_social_1;
-        margin-top: 50px;
-        margin-bottom: 40px;
-        text-align: center;
-    }
-
-    #grid_footer>#red_social_2 {
-        grid-area: red_social_2;
-        margin-top: 50px;
-        margin-bottom: 40px;
-        text-align: center;
-    }
-
-    #grid_footer>#red_social_3 {
-        grid-area: red_social_3;
-        margin-top: 50px;
-        margin-bottom: 40px;
-        text-align: center;
-    } */
-/* 
-    #grid_footer>#red_social_4 {
-
-        
-    } */
-
 }
-
-/* img {
-    object-fit: contain;
-    width: 120%;
-    margin: auto;
-    padding-top: 35px;
-    display: block;
-} */
