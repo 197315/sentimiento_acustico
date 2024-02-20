@@ -126,8 +126,9 @@ body {
 
         img {
             object-fit: contain;
-            width: 100%;
+            width: 120%;
             margin: auto;
+            padding-top: 40px;
             display: block;
         }
     }
@@ -214,10 +215,6 @@ body {
 
         justify-content: center;
         align-items: center;
-        /* padding-top: 20px; */
-        /* padding-bottom: 20px; */
-        padding-left: 15px;
-        /* padding-right: 15px; */
     }
 }
 
@@ -273,10 +270,6 @@ body {
             'video_4';
         justify-content: center;
         align-items: center;
-        /* padding-top: 20px; */
-        /* padding-bottom: 20px; */
-        padding-left: 15px;
-        /* padding-right: 15px; */
     }
 }
 
@@ -300,6 +293,8 @@ body {
     text-align: center;
 
     table {
+        width:100%;
+        border-collapse: collapse; 
         text-align: center;
         margin-left: auto;
         margin-right: auto;
@@ -322,8 +317,15 @@ body {
 
 @media only screen and (max-width: 550px) {
     #container-tabs>#grid_table {
+        width:100%;
+        display: block; 
+        
         table {
-            width: 100px;
+            width:100%;
+        }
+
+        td {
+            position: relative;
         }
     }
 }
