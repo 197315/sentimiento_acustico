@@ -22,7 +22,6 @@ body {
 
 #grid_header>nav {
     grid-area: nav;
-    background-color: rgb(87, 38, 36);
     text-align: center;
 }
 
@@ -38,14 +37,9 @@ body {
 #grid_header>#subtitulo_header {
     grid-area: subtitulo_header;
     color: rgb(210, 202, 144);
-    background-color: rgb(87, 38, 36);
     font-size: 25px;
     font-style: italic;
     text-align: center;
-    margin: 0;
-    border: 0;
-    padding-bottom: 30px;
-
 }
 
 #grid_header>#frase_header {
@@ -55,9 +49,6 @@ body {
     font-style: italic;
     text-align: center;
     font-size: 17px;
-    padding-top: 4px;
-    border: 0;
-    margin: 0;
 }
 
 #grid_header>#menu_header {

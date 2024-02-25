@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  background-color: #572624;
+}
+
+#grid_header {
+  display: grid;
+  width: 100%;
+  background-color: #572624;
+  grid-template-rows: 120px 40px 30px 40px;
+  grid-template-columns: 20% 1fr;
+  grid-template-areas: "nav titulo_header" "nav subtitulo_header" "frase_header frase_header" "menu_header menu_header";
+}
+#grid_header nav {
+  grid-area: nav;
+  text-align: center;
+}
+#grid_header #titulo_header {
+  grid-area: titulo_header;
+  color: #D2CA90;
+  font-size: 60px;
+  font-style: italic;
+  text-align: center;
+  line-height: 100px;
+}
+#grid_header #subtitulo_header {
+  grid-area: subtitulo_header;
+  color: #D2CA90;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+}
+#grid_header #frase_header {
+  grid-area: frase_header;
+  color: #572624;
+  background-color: #D2CA90;
+  font-style: italic;
+  text-align: center;
+  font-size: 17px;
+}
+#grid_header #menu_header {
+  grid-area: menu_header;
+  background-color: #572624;
+  font-weight: bold;
+  text-align: center;
+}
+#grid_header #menu_header ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 40px;
+}
+#grid_header #menu_header li {
+  width: 100px;
+  display: inline-block;
+}
+#grid_header #menu_header a {
+  text-decoration: none;
+  display: block;
+  color: #D2CA90;
+}
+#grid_header #menu_header:hover {
+  background: #f9a91a;
+  color: #000;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=styles.css.map */
