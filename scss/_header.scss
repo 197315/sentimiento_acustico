@@ -1,6 +1,9 @@
+@mixin grid-width($type, $width) {
+    display: $type;
+    width: $width;
+}
 #grid_header {
-    display: grid;
-    width: 100%;
+    @include grid-width(grid, 100%);
     background-color: $color1;
     grid-template-rows: 120px 40px 30px 40px;
     grid-template-columns: 20% 1fr;

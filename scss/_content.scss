@@ -1,0 +1,158 @@
+@mixin grid-width($type, $width) {
+    display: $type;
+    width: $width;
+}
+// ##  INICIO
+#container-inicio {
+    @include grid-width(grid, 100%);
+    background-color: $color3;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        'video_principal';
+
+
+    #video_principal {
+        grid-area: video_principal;
+        position: relative;
+    }
+}
+
+// ##  CONTENIDO
+#container-contenido {
+    @include grid-width(grid, 100%);
+    background-color: $color3;
+    grid-template-rows: repeat(2, 50%);
+    grid-template-columns: 15% 35% 15% 35%;
+    grid-template-areas:
+        'contenido1 contenido1 contenido2 contenido2'
+        'contenido3 contenido3 contenido4 contenido4';
+
+    #contenido1 {
+        grid-area: contenido1;
+        text-align: center;
+        border: solid 2px $color3;
+        background: linear-gradient(to right, $color1, $color2);
+        color: $color3;
+    }
+
+    #contenido2 {
+        grid-area: contenido2;
+        @extend #contenido1;
+    }
+
+    #contenido3 {
+        grid-area: contenido3;
+        @extend #contenido1;
+    }
+
+    #contenido4 {
+        grid-area: contenido4;
+        @extend #contenido1;
+    }
+}
+
+// ##  VIDEOS
+#container-videos {
+    @include grid-width(grid, 100%);
+    background-color: $color3;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+        'video_1  video_2'
+        'video_3  video_4';
+
+
+    #video_1 {
+        grid-area: video_1;
+        position: relative;
+        border: 5px solid $color3;
+    }
+
+    #video_2 {
+        grid-area: video_2;
+        @extend #video_1;
+    }
+
+    #video_3 {
+        grid-area: video_3;
+        @extend #video_1;
+    }
+
+    #video_4 {
+        grid-area: video_4;
+        @extend #video_1;
+    }
+}
+
+
+// ##  TABS
+#container-tabs {
+    @include grid-width(grid, 100%);
+    background-color: $color3;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        'table-tabs';
+    overflow: auto;
+
+
+    #table-tabs {
+        grid-area: table-tabs;
+        width: 100%;
+        border: 1px solid;
+        text-align: center;
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 20px;
+            padding-top: 20px;
+
+            li {
+                list-style: none;
+            }
+        }
+
+        ul,
+        th,
+        td {
+            border: 1px solid;
+            text-align: center;
+            padding: 20px;
+            list-style-type: none
+        }
+    }
+}
+
+
+// ##  CONTACTO
+#container-contacto {
+    @include grid-width(grid, 100%);
+    background-color: $color3;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        'contacto_form';
+
+
+    #contacto_form {
+        grid-area: contacto_form;
+        text-align: center;
+        padding-top: 30px;
+        padding-left: 15px;
+        padding-bottom: 30px;
+        margin-left: 25px;
+
+        input {
+            width: 25%;
+        }
+
+        textarea {
+            width: 50%;
+        }
+    }
+}
